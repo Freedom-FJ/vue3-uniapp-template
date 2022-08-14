@@ -1,0 +1,70 @@
+{
+    "version": 8,
+    "metadata": {},
+    "glyphs": "./static/fonts/{fontstack}/{range}.pbf",
+    "sources": {
+        "tdt_vec_c": {
+            "type": "raster",
+            "tiles": [
+                "http://t0.tianditu.gov.cn/DataServer?T=vec_c&x={x}&y={y}&l={z}&tk=fd904537c7a00271b8d6c9cc4f83c6cd"
+            ],
+            "tileSize": 256
+        },
+        "tdt_cva_c": {
+            "type": "raster",
+            "tiles": [
+                "http://t0.tianditu.gov.cn/DataServer?T=cva_c&x={x}&y={y}&l={z}&tk=fd904537c7a00271b8d6c9cc4f83c6cd"
+            ],
+            "tileSize": 256
+        },        
+        "tdt_img_c": {
+            "type": "raster",
+            "tiles": [
+                "http://t0.tianditu.gov.cn/DataServer?T=img_c&x={x}&y={y}&l={z}&tk=fd904537c7a00271b8d6c9cc4f83c6cd"
+            ],
+            "tileSize": 256
+        },
+        "tdt_cia_c": {
+            "type": "raster",
+            "tiles": [
+                "http://t0.tianditu.gov.cn/DataServer?T=cia_c&x={x}&y={y}&l={z}&tk=fd904537c7a00271b8d6c9cc4f83c6cd"
+            ],
+            "tileSize": 256
+        }
+    },
+    "layers": [
+        {
+            "id": "common_tdt_vec_c",
+            "type": "raster",
+            "source": "tdt_vec_c",
+            "layout": {
+                "visibility": "none"
+            }
+        },
+        {
+            "id": "common_tdt_cva_c",
+            "type": "raster",
+            "source": "tdt_cva_c",
+            "layout": {
+                "visibility": "none"
+            }
+        },        
+        {
+            "id": "terrain_tdt_img_c",
+            "type": "raster",
+            "source": "tdt_img_c",
+            "layout": {
+                "visibility": "visible"
+            }
+        },
+        {
+            "id": "terrain_tdt_cia_c",
+            "type": "raster",
+            "source": "tdt_cia_c",
+            "layout": {
+                "visibility": "visible"
+            }
+        }
+    ],
+    "id": "x04sv9tch"
+}

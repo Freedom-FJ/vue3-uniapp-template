@@ -1,0 +1,249 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "@ued_fpi/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ 
+        {
+            "path" : "pages/realTime/RealTime",
+            "style" :                                                                                    
+            {
+                "navigationBarBackgroundColor": "#0073f2",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+        {
+			"path": "pages/realTime/SiteDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+        {
+			"path": "pages/realTime/FactorDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#fff",
+                "navigationBarTitleText": "数据变化趋势详情",
+                "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/Login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/Mine",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/mine/About",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationBarBackgroundColor": "rgba(0, 0, 0, 0.4)",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        },
+        {
+            "path" : "pages/mine/ChangePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarBackgroundColor": "#fff",
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/operation/Index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "工作台",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/operation/signIn/SignIn",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签到",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/visitor/VisitorRegistration",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "访客登记",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/visitor/VisitorDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "访客详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/visitor/VisitorInput",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "访客登记",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/TaskList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务列表",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/AddTaskList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增巡检",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/ListDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巡检导航页",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/taskFormDetail/PatrolMaintenance",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "巡检维护记录",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/taskFormDetail/MaintenanceRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "仪器设备检修记录表",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/taskFormDetail/WasteLiquidDisposal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "废液处置记录表",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/taskFormDetail/ReagentSample",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "试剂及标准样品/耗材配件/关键参数：更换记录表",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/taskOperationList/taskFormDetail/InstrumentCalibration",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "仪器校准记录表",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/accountOperationList/OperationAccountList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "运维台账",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/accountOperationList/AccountListDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "台账详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path" : "pages/operation/accountOperationList/PersonnelAccount",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人员台账",
+                "navigationStyle": "custom"
+            }
+        }, 
+        {
+            "path" : "pages/operation/accountOperationList/PersonnelAccountDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "人员台账详情",
+                "navigationStyle": "custom"
+            }
+        }, 
+        {
+            "path" : "pages/operation/accountOperationList/AccountCalendar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "运维日历",
+                "navigationStyle": "custom"
+            }
+        }, 
+        {
+            "path" : "pages/noMenu/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "没有菜单权限",
+                "navigationStyle": "custom"
+            }
+        }
+    ],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/realTime/RealTime",
+				"iconPath": "/static/images/tabbar/siteLive-select-no.png",
+				"selectedIconPath": "/static/images/tabbar/siteLive-select.png",
+				"text": "站点实况"
+			},
+			{
+				"pagePath": "pages/operation/Index",
+				"iconPath": "/static/images/tabbar/workbench-select-no.png",
+				"selectedIconPath": "/static/images/tabbar/workbench-select.png",
+				"text": "工作台"
+			},
+			{
+				"pagePath": "pages/mine/Mine",
+				"iconPath": "/static/images/tabbar/mine-select-no.png",
+				"selectedIconPath": "/static/images/tabbar/mine-select.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

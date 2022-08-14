@@ -1,0 +1,6 @@
+include:
+    - project: 'product/water-products/prd-wgms/wgms-ci-templates'
+      file: '/Devops.gitlab-ci.yml'
+
+    - project: 'product/water-products/prd-wgms/wgms-ci-templates'
+      file: '/Build-JavaScript-Image.gitlab-ci.yml'

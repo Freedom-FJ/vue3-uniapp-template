@@ -1,0 +1,153 @@
+.container {
+    height: 100vh;
+    background-color: #eff2f8;
+    .container-body {
+        height: calc(100vh - 88rpx - 160rpx);
+        width: 100%;
+        padding-top: 16rpx;
+        background-color: #f1f4f9;
+        overflow: auto;
+        .instrument-item {
+
+            width: 720rpx;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 12px;
+            margin-bottom: 16rpx;
+            .top-name{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                height: 48px;
+                padding: 0 40rpx;
+                border-radius: 12px 12px 0px 0px;
+                background: #0084FF;
+                span {
+                    font-family: PingFangSC;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                }
+                image {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .form-body{
+                padding:  0 40rpx;
+                .time-input{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    image {
+                        width: 17.1px;
+                        height: 19px;
+                        margin-left: 10rpx;
+                    }
+                }
+            }
+            
+        }
+    }
+    .btn-box {
+        display: flex;
+        justify-content: space-between;
+        height: 160rpx;
+        width: 100%;
+        padding:  30rpx 80rpx 0;
+        background-color: white;
+
+    }
+    .popup-container {
+        height: 100%;
+        width: 100%;
+        padding: 32rpx;
+        .instrument-box {
+            
+            height: 75%;
+            margin: 22rpx 0 10rpx;
+            padding: 24rpx 0;
+            border-top: 1px solid #EBEEF5;
+            overflow: auto;
+            .instrument-flex {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .instrument-type {
+                width: 158px;
+                height: 32px;
+                padding: 0 5rpx;
+                border-radius: 4px;
+                margin-bottom: 24rpx;
+                background: #F2F6FC;
+                line-height: 32px;
+                font-family: PingFangSC;
+                font-size: 12px;
+                font-weight: normal;
+                text-align: center;
+                color: #303133;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .ellipsis {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .is-check-type {
+                width: 158px;
+                height: 32px;
+                margin-bottom: 24rpx;
+                border-radius: 4px;
+                background: #F2F6FC;
+                box-sizing: border-box;
+                line-height: 32px;
+                border: 1px solid #3296FA;
+                font-family: PingFangSC;
+                font-size: 12px;
+                text-align: center;
+                font-weight: 500;
+                color: #3296FA;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+        .instrument-total {
+            display: flex;
+            margin-top: 28rpx;
+            .instrument-total-item {
+                margin-right: 60rpx;
+                font-family: PingFangSC;
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 22px;
+                color: #303133;
+            }
+            &-value {
+                color: #0084ff;
+            }
+        }
+        .instrument-btn-box {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30rpx;
+            
+        }
+    }
+}
+.img-show {
+    display: flex;
+    margin-top: 15rpx;
+    min-height: 140rpx;
+    image {
+        margin-right: 10rpx;
+        height: 130rpx;
+        width: 130rpx;
+    }
+}

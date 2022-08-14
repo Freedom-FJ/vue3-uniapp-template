@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+# npm run lint-staged # 因为配置了lint-staged所以不需要配置eslint校验了
+npm run lint-fix # 因为配置了lint-staged所以不需要配置eslint校验了
